@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "aerpn/navigation-bar-1",
+  "version": "0.1.0",
+  "title": "Navigation Bar 1",
+  "category": "widgets",
+  "icon": "menu-alt3",
+  "description": "Customizable nav block with menu, logo, and style controls.",
+  "example": {},
+  "attributes": {
+    "menu": {
+      "type": "string",
+      "default": ""
+    },
+    "logoWidth": {
+      "type": "number",
+      "default": 80
+    },
+    "navColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "logoUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "brandColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Contact"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "navTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "buttonFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "buttonBgColor": {
+      "type": "string",
+      "default": "#ff0000"
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "abhisek-navbar",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}
