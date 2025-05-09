@@ -1,0 +1,33 @@
+{
+	"apiVersion": 2,
+	"name": "aerpn/container",
+	"title": "Container",
+	"category": "widgets",
+	"icon": "edit",
+	"description": "A simple text block.",
+	"supports": {
+	  "html": false,
+	  "innerBlocks": true,
+	  "color": {
+        "background": true,
+        "text": false
+    },
+	"spacing": {
+        "margin": true,  
+        "padding": true
+    }
+	},
+	"attributes": {
+	 "useThemeStyle": {"type": "boolean","default": true},
+	  "width":{"type":"string","default":"1200px"}
+	
+	},
+	
+	"textdomain": "aerpn",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+  }
+  

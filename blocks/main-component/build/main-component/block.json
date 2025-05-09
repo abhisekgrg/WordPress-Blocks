@@ -1,0 +1,29 @@
+{
+  "apiVersion": 2,
+  "name": "aerpn/main-component",
+  "title": "Main component",
+  "category": "widgets",
+  "icon": "edit",
+  "description": "A simple text block.",
+  "supports": {
+    "html": false,
+    "innerBlocks": true
+  },
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "heading": {
+      "type": "string",
+      "default": "50px"
+    }
+  },
+  "textdomain": "aerpn",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

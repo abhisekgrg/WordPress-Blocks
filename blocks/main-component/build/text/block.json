@@ -1,0 +1,57 @@
+{
+  "apiVersion": 2,
+  "name": "aerpn/heading",
+  "title": "aerpn/heading",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A custom block with inner blocks.",
+  "parent": [
+    "aerpn/main-component"
+  ],
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "background": false
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true
+    }
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "headingLevel": {
+      "type": "string",
+      "default": "h2"
+    },
+    "useThemeStyle": {
+      "type": "boolean",
+      "default": true
+    },
+    "FontSize": {
+      "type": "number"
+    },
+    "LetterSpacing": {
+      "type": "number",
+      "default": 1
+    },
+    "LineHeight": {
+      "type": "number"
+    },
+    "FontFamily": {
+      "type": "string"
+    },
+    "FontWeight": {
+      "type": "string"
+    }
+  },
+  "textdomain": "aerpn",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
