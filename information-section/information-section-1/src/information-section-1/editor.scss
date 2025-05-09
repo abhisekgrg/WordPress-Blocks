@@ -1,0 +1,9 @@
+
+
+
+/* Ensure the block is selectable inside group blocks */
+.wp-block-group .wp-block-aerpn-information-section-1 {
+	position: relative;
+	z-index: 1;
+	pointer-events: all;
+}

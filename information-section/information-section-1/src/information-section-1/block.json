@@ -1,0 +1,167 @@
+
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "aerpn/information-section-1",
+	"version": "0.1.0",
+	"title": "Information Section 1",
+	"category": "widgets",
+	"icon": "cover-image",
+	"description": "A customizable Information section with image, text, and button.",
+	"example": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Welcome"
+		},
+		"description": {
+			"type": "string",
+			"default": " Seasona is an all integrated resort managed by Marriott International through its The Luxury Collection brand with different options of accommodation investment"
+		},
+		"titleFontSize": {
+			"type": "string",
+			"default": "31"
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#DBA765"
+		},
+		"descriptionFontSize": {
+			"type": "string",
+			"default": "18"
+		},
+		"descriptionColor": {
+			"type": "string",
+			"default": "#505050"
+		},
+		
+		"imageOneUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageTwoUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageThreeUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"subTitle": {
+			"type": "string",
+			"default": "Luxury and Nature in Harmony"
+		},
+		"subTitleFontSize": {
+			"type": "string",
+			"default": "31"
+		},
+		"subTitleColor": {
+			"type": "string",
+			"default": ""
+		},
+		"authorMessage": {
+			"type": "string",
+			"default": "A place that offers everything you have ever dreamed of, created to fulfill your heart’s desires and designed to satisfy your dreams of owning a home in a unique place."
+		},
+		"authorMessageFontSize": {
+			"type": "string",
+			"default": "18"
+		},
+		"authorMessageColor": {
+			"type": "string",
+			"default": ""
+		},
+		"authorName": {
+			"type": "string",
+			"default": "Leonardo P."
+		},
+		"authorNameFontSize": {
+			"type": "string",
+			"default": "18"
+		},
+		"authorNameColor": {
+			"type": "string",
+			"default": ""
+		},
+		"authorPosition": {
+			"type": "string",
+			"default": "Resort manager"
+		},
+		"authorPositionFontSize": {
+			"type": "string",
+			"default": "10"
+		},
+		"authorPositionColor": {
+			"type": "string",
+			"default": "#8F8F8F"
+		},
+		"imageBorderRadius": {
+			"type": "number",
+			"default": 20
+		},
+		"featureTitle1": {
+			"type": "string",
+			"default": "No booking fee"
+		},
+		"featureTitle2": {
+			"type": "string",
+			"default": "Best rate guarantee"
+		},
+		"featureTitleFontSize": {
+			"type": "string",
+			"default": "18"
+		},
+		"featureTitleColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"featureDescription1": {
+			"type": "string",
+			"default": "Amet minim mollit deseruntullamco est sit aliqua dolor."
+		},
+		"featureDescription2": {
+			"type": "string",
+			"default": "Amet minim mollit deseruntullamco est sit aliqua dolor."
+		},
+		"featureDescriptionFontSize": {
+			"type": "string",
+			"default": "14"
+		},
+		"featureDescriptionColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"featureBackgroundColor": {
+			"type": "string",
+			"default": "#DBA765"
+		},
+		"featureIcon1": {
+			"type": "string",
+			"default": ""
+		},
+		"featureIcon2": {
+			"type": "string",
+			"default": ""
+		},
+		"featureIconWidth": {
+			"type": "number",
+			"default": 35
+		}
+	},
+"supports": {
+	"html": false,
+	"align": ["wide", "full"],
+	"spacing": {
+		"margin": true,    
+		"padding": true  
+	}
+},
+
+	
+	"textdomain": "herosection-3",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

@@ -1,0 +1,240 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "aerpn/information-section-2",
+  "version": "0.1.0",
+  "title": "Information Section 2",
+  "category": "aerpn-blocks",
+  "icon": "smiley",
+  "description": "Information section with author quote and features",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "information-section-2",
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Luxury and Nature in Harmony"
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 31
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Welcome"
+    },
+    "subTitleFontSize": {
+      "type": "number",
+      "default": 31
+    },
+    "subTitleColor": {
+      "type": "string",
+      "default": "#DBA765"
+    },
+    "description": {
+      "type": "string",
+      "default": "Located on northern coastline, Seasona offers elegant rooms and panoramic sea views. Indulge mind, body and soul at the best Elemis spa together with a collection of restaurants offering Greek and international cuisine. Seasona is an all integrated resort, managed by Marriott International, through its The Luxury Collection brand, with different options of accommodation, investment opportunities and a luxurious lifestyle for the whole family."
+    },
+    "descriptionFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#555555"
+    },
+    "authorMessage": {
+      "type": "string",
+      "default": "A place that offers everything you have ever dreamed of, created to fulfill your heart's desires and designed to satisfy your dreams of owning a home in a unique place."
+    },
+    "authorMessageFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "authorMessageColor": {
+      "type": "string",
+      "default": "#666666"
+    },
+    "authorName": {
+      "type": "string",
+      "default": "Leonardo P."
+    },
+    "authorNameFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "authorNameColor": {
+      "type": "string",
+      "default": "#444444"
+    },
+    "authorPosition": {
+      "type": "string",
+      "default": "Resort manager"
+    },
+    "authorPositionFontSize": {
+      "type": "number",
+      "default": 10
+    },
+    "authorPositionColor": {
+      "type": "string",
+      "default": "#777777"
+    },
+    "imageOneUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageTwoUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageBorderRadius": {
+      "type": "number",
+      "default": 10
+    },
+    "featureTitle1": {
+      "type": "string",
+      "default": "Feature 1 Title"
+    },
+    "featureTitle2": {
+      "type": "string",
+      "default": "Feature 2 Title"
+    },
+    "featureTitleFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "featureTitleColor": {
+      "type": "string",
+      "default": "#222222"
+    },
+    "featureDescription1": {
+      "type": "string",
+      "default": "Description for feature 1"
+    },
+    "featureDescription2": {
+      "type": "string",
+      "default": "Description for feature 2"
+    },
+    "featureDescriptionFontSize": {
+      "type": "number",
+      "default": 14
+    },
+    "featureDescriptionColor": {
+      "type": "string",
+      "default": "#666666"
+    },
+    "featureBackgroundColor": {
+      "type": "string",
+      "default": "#DBA765"
+    },
+    "featureIcon1": {
+      "type": "string",
+      "default": ""
+    },
+    "featureIcon2": {
+      "type": "string",
+      "default": ""
+    },
+    "featureIconWidth": {
+      "type": "number",
+      "default": 40
+    },
+    "ratingTitle": {
+      "type": "string",
+      "default": "4.8"
+    },
+    "ratingTitleColor": {
+      "type": "string",
+      "default": "#DBA765"
+    },
+    "ratingTitleFontSize": {
+      "type": "number",
+      "default": 96
+    },
+    "ratingFontWeight": {
+      "type": "number",
+      "default": 600
+    },
+    "reviewTitle": {
+      "type": "string",
+      "default": "1,496 Reviews"
+    },
+    "reviewButton": {
+      "type": "string",
+      "default": "Write a Review"
+    },
+    "reviewButtonBackgroundColor": {
+      "type": "string",
+      "default": "#DBA765"
+    },
+    "reviewButtonFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "reviewButtonBorderRadius": {
+      "type": "number",
+      "default": 50
+    },
+    "reviewButtonColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "reviewTitleFontSize": {
+      "type": "number",
+      "default": 13
+    },
+    "reviewTitleColor": {
+      "type": "string",
+      "default": "#555555"
+    },
+    "ratingWidth": {
+      "type": "number",
+      "default": 120
+    },
+   
+  
+    "ctaTitle":{
+      "type": "string",
+      "default": "Make Your Vacation Great"
+    },
+    "ctaTitleFontSize": {
+      "type": "number",
+      "default": 13
+    },
+    "ctaTitleColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "ctaButton": {
+    "type": "string",
+    "default": "Enjoy Your Stay"
+    },
+   
+    "ctaButtonFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "ctaButtonBorderRadius": {
+      "type": "number",
+      "default": 5
+    },
+    "ctaButtonColor": {
+      "type": "string",
+      "default": "#DBA765"
+    },
+    "borderBackgroundColor": {
+      "type": "string",
+      "default": "#DBA765"
+    }
+  }
+}
